@@ -3,15 +3,14 @@ node_js:
   - "13"
   - "12"
   - "10"
+  - "9"
   - "8"
 git:
   depth: 5
 os:
   - linux
 
-arch: 
-  - amd64
-  - s390x
+arch: s390x
   
 before_install:
   - sudo apt-get -qq update
